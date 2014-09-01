@@ -1,0 +1,8 @@
+.gradle/
+.idea/
+build/
+out/
+lib.old/
+*.bak
+*.old
+tags
