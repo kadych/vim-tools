@@ -11,7 +11,7 @@ import static org.junit.Assert.*;
 public class AppTest {
     @Test
     public void test01() {
-        String[] args = new String[] {"vim.tools.App", "vim.tools.EclipseFormatter", "Demo.java"};
+        String[] args = new String[] {"vim.tools.App", "vim.tools.EclipseFormatter", "My.java"};
         assertEquals(3, args.length);
 
         List<String> list = new ArrayList<>(Arrays.asList(args));

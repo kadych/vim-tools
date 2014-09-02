@@ -33,7 +33,7 @@ dependencies {
 
 jar {
     manifest.attributes 'Main-Class': "$mainClassName"
-    manifest.attributes 'Entry-Point': "vim.tools.App,vim.tools.EclipseFormatter,vim.tools.MustacheGenerator"
+    manifest.attributes 'Entry-Point': "vim.tools.App,vim.tools.EclipseFormatter,vim.tools.MustacheGenerator,vim.tools.StartSession"
     manifest.attributes 'Version': "$version"
     manifest.attributes 'Created-By': Jvm.current()
     manifest.attributes 'Gradle-Version': GradleVersion.current()
