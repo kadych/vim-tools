@@ -1,8 +1,10 @@
 .gradle/
 .idea/
 build/
+target/
 out/
 lib.old/
 *.bak
 *.old
 tags
+/.nb-gradle/private/

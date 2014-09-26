@@ -42,9 +42,9 @@ public class MustacheGeneratorTest {
     public void test03() {
         final String DATE_FORMAT = "EEE, d MMM yyyy";
         final String TIME_FORMAT = "HH:mm:ss";
-        System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern(DATE_FORMAT + " " + TIME_FORMAT, Locale.ENGLISH)));
-        System.out.println(LocalTime.now().format(DateTimeFormatter.ofPattern(TIME_FORMAT, Locale.ENGLISH)));
-        System.out.println(LocalDate.now().format(DateTimeFormatter.ofPattern(DATE_FORMAT, Locale.ENGLISH)));
+        // System.out.println(LocalDateTime.now().format(DateTimeFormatter.ofPattern(DATE_FORMAT + " " + TIME_FORMAT, Locale.ENGLISH)));
+        // System.out.println(LocalTime.now().format(DateTimeFormatter.ofPattern(TIME_FORMAT, Locale.ENGLISH)));
+        // System.out.println(LocalDate.now().format(DateTimeFormatter.ofPattern(DATE_FORMAT, Locale.ENGLISH)));
     }
 
     @Test
